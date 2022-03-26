@@ -1,11 +1,77 @@
-h1 {
-  font-family: "PLayfair Display", serif;
-  font-weight: bold;
+:root {
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Roboto", sans-serif;
+  --primary-color: #c4cafc;
+  --secondary-color: #3f3d56;
+}
+
+.intro-name {
+  padding-top: 100px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
-p {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
+h1 {
+  font-family: var(--heading-font-family);
   font-weight: bold;
+  font-size: 50px;
+  color: var(--secondary-color);
+}
+
+p {
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0 auto;
+  color: var(--secondary-color);
+}
+
+.homepage-img {
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 400px;
+}
+
+.intro-description {
+  padding: 10px;
+  text-align: center;
+}
+
+.about-link {
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: white;
+  text-decoration: none;
+}
+
+.about-link:hover {
+  transition: all 500ms ease-in-out;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid var(--secondary-color);
+  background-color: white;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.contact-link {
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: white;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  transition: all 500ms ease-in-out;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid var(--secondary-color);
+  background-color: white;
+  color: var(--secondary-color);
+  text-decoration: none;
 }
