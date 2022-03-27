@@ -48,7 +48,7 @@ p {
 }
 
 .about-link:hover {
-  transition: all 500ms ease-in-out;
+  transition: all 250ms ease-in-out;
   padding: 15px 20px;
   border-radius: 10px;
   border: 1px solid var(--secondary-color);
@@ -67,7 +67,7 @@ p {
 }
 
 .contact-link:hover {
-  transition: all 500ms ease-in-out;
+  transition: all 250ms ease-in-out;
   padding: 15px 20px;
   border-radius: 10px;
   border: 1px solid var(--secondary-color);
