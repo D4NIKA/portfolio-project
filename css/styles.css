@@ -144,3 +144,7 @@ p {
 .recent-project {
   padding: 20px;
 }
+
+.learn-more {
+  color: var(--secondary-color);
+}
