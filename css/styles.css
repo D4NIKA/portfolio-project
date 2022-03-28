@@ -148,3 +148,11 @@ p {
 .learn-more {
   color: var(--secondary-color);
 }
+
+@media (max-width: 700px) {
+  .weather-image {
+    display: block;
+    align-items: center;
+    max-width: 200px;
+  }
+}
