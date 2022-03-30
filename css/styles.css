@@ -12,7 +12,8 @@
 }
 
 body {
-  padding: 20px;
+  padding: 0;
+  margin: 0 auto;
 }
 
 h1 {
@@ -101,8 +102,7 @@ p {
 .projects-section {
   border: 1px solid var(--secondary-color);
   border-radius: 20px;
-  max-width: 100%;
-  margin: 20px 0;
+  margin: 20px 20px;
   padding: 10px;
 }
 
@@ -114,7 +114,7 @@ p {
 
 .project-paragraph,
 .project-header {
-  padding: 10px;
+  padding: 20px;
   color: var(--secondary-color);
 }
 
@@ -149,10 +149,20 @@ p {
   color: var(--secondary-color);
 }
 
+span {
+  background: red;
+  max-width: 100%;
+}
+
 @media (max-width: 700px) {
   .weather-image {
     display: block;
     align-items: center;
     max-width: 200px;
   }
+}
+
+.about-me {
+  margin: 0 auto;
+  padding: 0;
 }
