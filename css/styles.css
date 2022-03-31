@@ -277,3 +277,12 @@ footer {
   margin: 0 auto;
   text-align: center;
 }
+
+.active {
+  color: var(--primary-color) !important;
+}
+
+.nav-item {
+  padding: 0 10px;
+  line-height: 25px;
+}
