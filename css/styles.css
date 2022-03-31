@@ -207,3 +207,45 @@ p {
 footer {
   text-align: center;
 }
+
+.projects-container {
+  padding: 160px 20px;
+}
+
+.projects-container h1 {
+  padding: 20px;
+}
+
+.acrylic-img {
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  margin-bottom: 20px;
+}
+
+.acrylic-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.acrylic-link:hover {
+  color: var(--primary-color);
+}
+
+.weather-img {
+  max-width: 650px;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  margin-bottom: 20px;
+}
+
+.weather-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.weather-link:hover {
+  color: var(--primary-color);
+}
